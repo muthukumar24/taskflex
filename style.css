@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Oswald";
+    src: url(oswald.light.ttf);
+} 
+@font-face {
+    font-family: "PT Sans";
+    src: url(pt-sans.regular.ttf);
+}
+.layoutsection{
+    height: 1600px;
+    width: 1500px;
+    /* border: solid; */
+}
+.contentarea{
+    height: 300px;
+    width: 800px;
+    margin: auto;
+    /* border: solid green; */
+}
+.headertext{
+    font-family: "Oswald", sans-serif;
+    text-align: left;
+    font-size: 4.5rem;
+    letter-spacing: 2px;
+    font-weight: 200px;
+}
+.paragraph{
+    font-family: "PT Sans", sans-serif;
+    text-align: left;
+    font-size: large;
+    line-height: 35px;
+    letter-spacing: 2px;
+}
+.linebreak{
+    height: 4px;
+    width: 900px;
+    margin: auto;
+}
+.flexcontainer{
+    height: 1100px;
+    width: 1400px;
+    margin: auto;
+    /* border: solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.box{
+   height: 300px;
+   width: 400px;
+   margin: 30px;
+   /* border: solid; */
+}
+.images{
+    height: 250px;
+    width: 350px;
+    padding: 25px; 
+    opacity: 1;
+}
+.images:hover{
+    opacity: 0.8;
+    transition: 0.6s;
+    transform: scale(1.2);
+}
+.referencelink{
+    text-align: center;
+    margin-top: 70px;
+}
+.nicepagesite{
+    font-family: 'Open Sans',sans-serif;
+    text-transform: uppercase;
+    font-size: large;
+    letter-spacing: 1px;
+    color: black;
+    border: solid;
+    box-sizing: border-box;
+    padding: 15px 25px 15px 25px;
+    text-decoration: none;
+}
+.nicepagesite:hover{
+    color: white;
+    background-color: black;
+}
